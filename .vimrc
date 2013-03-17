@@ -15,10 +15,10 @@ Bundle "garbas/vim-snipmate"
 Bundle "scrooloose/nerdtree"
 Bundle "tpope/vim-surround"
 Bundle "flazz/vim-colorschemes"
-Bundle "hallettj/jslint.vim"
 Bundle "othree/html5.vim"
 Bundle "hail2u/vim-css3-syntax"
 Bundle "digitaltoad/vim-jade"
+Bundle "hallettj/jslint.vim"
 
 filetype plugin indent on
 
