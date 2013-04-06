@@ -50,6 +50,7 @@ set smartindent  " 設定 smartindent
 set confirm      " 操作過程有衝突時，以明確的文字來詢問
 set history=100  " 保留 100 個使用過的指令
 set cursorline   " 顯示目前的游標位置
+set noswapfile   " 不要產生 swap 檔案
 
 nmap <S-Tab> <<  " 反縮排
 imap <S-Tab> <<
