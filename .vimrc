@@ -16,9 +16,10 @@ Bundle "flazz/vim-colorschemes"
 Bundle "othree/html5.vim"
 Bundle "hail2u/vim-css3-syntax"
 Bundle "digitaltoad/vim-jade"
-Bundle "hallettj/jslint.vim"
 Bundle "terryma/vim-multiple-cursors"
 Bundle "tpope/vim-fugitive"
 Bundle "Valloric/YouCompleteMe"
+Bundle "wavded/vim-stylus"
+Bundle "FredKSchott/CoVim"
 
 filetype plugin indent on
