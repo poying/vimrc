@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/poying/Workspace/node/google-translate-tool'
+let g:netrw_dirhist_2='/Users/poying/Workspace/med/src'
+let g:netrw_dirhist_3='/Users/poying/Workspace/med/theme'
+let g:netrw_dirhist_4='/Users/poying/.vim/ftplugin'

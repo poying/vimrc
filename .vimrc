@@ -1,10 +1,13 @@
 set nocompatible
 filetype off
 
+set exrc
+set secure
+
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle "Lokaltog/vim-powerline"
 Bundle "vim-scripts/The-NERD-Commenter"
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -17,9 +20,18 @@ Bundle "othree/html5.vim"
 Bundle "hail2u/vim-css3-syntax"
 Bundle "digitaltoad/vim-jade"
 Bundle "terryma/vim-multiple-cursors"
-Bundle "tpope/vim-fugitive"
-Bundle "Valloric/YouCompleteMe"
+"Bundle "Valloric/YouCompleteMe"
 Bundle "wavded/vim-stylus"
-Bundle "FredKSchott/CoVim"
+Bundle "gkz/vim-ls"
+Bundle "jnwhiteh/vim-golang"
+"Bundle "fatih/vim-go"
+Bundle "Yggdroot/indentLine"
+Bundle "rizzatti/funcoo.vim"
+Bundle "rizzatti/dash.vim"
+Bundle "altercation/vim-colors-solarized"
+Bundle "tell-k/vim-browsereload-mac"
+Bundle "Shougo/vimshell.vim"
+Bundle "Shougo/vimproc.vim"
+Bundle "kchmck/vim-coffee-script"
 
 filetype plugin indent on

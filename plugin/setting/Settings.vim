@@ -22,3 +22,6 @@ set noswapfile   " 不要產生 swap 檔案
 set exrc         " local .vimrc
 set nu           " 顯上行號
 set laststatus=2
+
+" reload
+let g:returnApp = 'iTerm'
