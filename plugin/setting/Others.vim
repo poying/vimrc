@@ -1,1 +1,2 @@
-au FileType javascript call JavaScriptFold()
+set nobackup
+map <c-l> :call fastopen#show('argedit')<cr>

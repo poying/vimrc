@@ -5,39 +5,42 @@ set exrc
 set secure
 
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/vundle
+call vundle#begin()
 
-Bundle "vim-scripts/The-NERD-Commenter"
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "kaochenlong/snipmate.vim"
-Bundle "garbas/vim-snipmate"
-Bundle "scrooloose/nerdtree"
-Bundle "tpope/vim-surround"
-Bundle "flazz/vim-colorschemes"
-Bundle "othree/html5.vim"
-Bundle "hail2u/vim-css3-syntax"
-Bundle "digitaltoad/vim-jade"
-Bundle "terryma/vim-multiple-cursors"
-Bundle "wavded/vim-stylus"
-Bundle "gkz/vim-ls"
-Bundle "jnwhiteh/vim-golang"
-Bundle "Yggdroot/indentLine"
-Bundle "rizzatti/funcoo.vim"
-Bundle "rizzatti/dash.vim"
-Bundle "altercation/vim-colors-solarized"
-Bundle "tell-k/vim-browsereload-mac"
-Bundle "Shougo/vimshell.vim"
-Bundle "Shougo/vimproc.vim"
-Bundle "kchmck/vim-coffee-script"
-Bundle "toyamarinyon/vim-swift"
-Bundle "xolox/vim-misc"
-Bundle "xolox/vim-lua-ftplugin"
-Bundle "nvie/vim-flake8"
-Bundle "editorconfig/editorconfig-vim"
-Bundle "jelera/vim-javascript-syntax"
-Bundle "StanAngeloff/php.vim"
-Bundle "trusktr/seti.vim"
+" syntax
+Plugin 'fatih/vim-go'
+Plugin 'othree/yajs.vim'
+Plugin 'othree/html5.vim'
+Plugin 'wavded/vim-stylus'
+Plugin 'StanAngeloff/php.vim'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'aklt/plantuml-syntax'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'xolox/vim-lua-ftplugin'
+Plugin 'toyamarinyon/vim-swift'
+"Plugin 'jelera/vim-javascript-syntax'
 
+" lint
+Plugin 'nvie/vim-flake8'
+
+" color
+Plugin 'flazz/vim-colorschemes'
+Plugin 'altercation/vim-colors-solarized'
+
+" others
+Plugin 'kovisoft/slimv'
+Plugin 'xolox/vim-misc'
+Plugin 'rizzatti/dash.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdtree'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'marcweber/vim-addon-mw-utils'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'vim-scripts/The-NERD-Commenter'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+
+call vundle#end()
 filetype plugin indent on
